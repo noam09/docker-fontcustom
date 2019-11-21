@@ -8,7 +8,7 @@ Docker image for [FontCustom](https://github.com/FontCustom/fontcustom).
 
 Show help message:
 
-```shell
+```console
 docker run \
 	-v $(pwd)/input:/input \
 	-v $(pwd)/output:/output \
@@ -17,7 +17,7 @@ docker run \
 
 Compile SVG files from `input` directory and save results to `output` directory:
 
-```shell
+```console
 docker run \
 	-v $(pwd)/input:/input \
 	-v $(pwd)/output:/output \
